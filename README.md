@@ -8,18 +8,18 @@ Questions that are answered for this dataset are the following:
 
 1. Which are the top 10 players by overall rating?
 > top10Players
-         player_name | overall_rating
-         -----------   --------------
-1       Lionel Messi |            94
-2   Gianluigi Buffon |            93
-3       Wayne Rooney |            93
-4  Cristiano Ronaldo |            93
-5     Xavi Hernandez |            92
-6     Gregory Coupet |            92
-7      Thierry Henry |            91
-8         John Terry |            91
-9      Iker Casillas |            91
-10  Alessandro Nesta |            91
+  | player_name | overall_rating
+  | ----------- |  -----------   
+1 |      Lionel Messi |  94
+2 |  Gianluigi Buffon |  93
+3 |      Wayne Rooney |  93
+4 | Cristiano Ronaldo |  93
+5 |    Xavi Hernandez |  92
+6 |    Gregory Coupet |  92
+7 |     Thierry Henry |  91
+8 |        John Terry |  91
+9 |     Iker Casillas |  91
+10|  Alessandro Nesta |  91
 
 2. Which are the top 10 goalkeepers by sum of gk attributes?
 > top10GoalKeepers

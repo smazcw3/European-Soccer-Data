@@ -8,8 +8,9 @@ Questions that are answered for this dataset are the following:
 
 1. Which are the top 10 players by overall rating?
 > top10Players
-  | player_name | overall_rating
-  | ----------- |  -----------   
+
+#| player_name | overall_rating | 
+--- | --- | ---
 1 |      Lionel Messi |  94
 2 |  Gianluigi Buffon |  93
 3 |      Wayne Rooney |  93
@@ -23,17 +24,19 @@ Questions that are answered for this dataset are the following:
 
 2. Which are the top 10 goalkeepers by sum of gk attributes?
 > top10GoalKeepers
-         player_name sum_gk
-1   Gianluigi Buffon    449
-2     Gregory Coupet    447
-3          Petr Cech    445
-4      Iker Casillas    442
-5       Manuel Neuer    440
-6        Julio Cesar    438
-7     Sebastian Frey    437
-8  Edwin van der Sar    436
-9       David De Gea    429
-10        Pepe Reina    428
+
+#| player_name | sum_gk | 
+ --- | --- | ---
+1 |  Gianluigi Buffon  |  449
+2 |     Gregory Coupet |  447
+3 |         Petr Cech  |  445
+4 |    Iker Casillas   |  442
+5 |      Manuel Neuer  |  440
+6 |      Julio Cesar   |  438
+7 |    Sebastian Frey  |  437
+8 | Edwin van der Sar  |  436
+9 |     David De Gea   |  429
+10|        Pepe Reina  |  428
 
 3. Which are the top 10 players by number of appearances (with any team they played with)?
 > top10Players_presences

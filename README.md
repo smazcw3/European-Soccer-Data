@@ -4,7 +4,7 @@ Step 1 - Important question were prepared through critical analysis and subseque
 
 Step 2 -  Relevant answers were obtained from the resultant datasets (in .csv format) obtained from step 1. The script to run for this step is *Question-Answering.csv*
 
-Questions that are answered for this dataset are the following:
+## Questions that are answered for this dataset are the following:
 
 ### 1. Which are the top 10 players by overall rating?
 > top10Players

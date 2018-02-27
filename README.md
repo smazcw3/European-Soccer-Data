@@ -6,7 +6,7 @@ Step 2 -  Relevant answers were obtained from the resultant datasets (in .csv fo
 
 Questions that are answered for this dataset are the following:
 
-1. Which are the top 10 players by overall rating?
+### 1. Which are the top 10 players by overall rating?
 > top10Players
 
 #| player_name | overall_rating | 
@@ -22,7 +22,7 @@ Questions that are answered for this dataset are the following:
 9 |     Iker Casillas |  91
 10|  Alessandro Nesta |  91
 
-2. Which are the top 10 goalkeepers by sum of gk attributes?
+### 2. Which are the top 10 goalkeepers by sum of gk attributes?
 > top10GoalKeepers
 
 #| player_name | sum_gk | 
@@ -38,7 +38,7 @@ Questions that are answered for this dataset are the following:
 9 |     David De Gea   |  429
 10|        Pepe Reina  |  428
 
-3. Which are the top 10 players by number of appearances (with any team they played with)?
+### 3. Which are the top 10 players by number of appearances (with any team they played with)?
 > top10Players_presences
 
 #| player_name | Number_of_appearances |
@@ -54,7 +54,7 @@ Questions that are answered for this dataset are the following:
 9 |        Daniel Congre    |   262
 10|       Moussa Sissoko    |   260
 
-4. Which are the top 10 players by number of leagues they played in?
+### 4. Which are the top 10 players by number of leagues they played in?
 > top10Players_leaguesPlayed
 
 #| player_name | leagues_played  |
@@ -70,7 +70,7 @@ Questions that are answered for this dataset are the following:
 9|            Eljero Elia  |   4
 10|       Danijel Pranjic  |   4
 
-5. Which are the top 10 teams by sum of build up play attributes?
+### 5. Which are the top 10 teams by sum of build up play attributes?
 > buildUpPlay_top10teams
 
   #| team_api_id | team_long_name  |  buildUpPlay |
@@ -86,7 +86,7 @@ Questions that are answered for this dataset are the following:
 9 |    9830 |                 FC Nantes  |   189
 10|    7943 |                  Sassuolo  |   188
 
-6. Which are the top 10 teams by sum of chance creation attributes?
+### 6. Which are the top 10 teams by sum of chance creation attributes?
 > chanceCreation_top10teams
 
   #| team_api_id | team_long_name  |  chanceCreation |
@@ -103,7 +103,7 @@ Questions that are answered for this dataset are the following:
 10|   8586 |  Tottenham Hotspur |   210
 
 
-7. Which are the top 10 teams by sum of defense attributes?
+### 7. Which are the top 10 teams by sum of defense attributes?
 > defense_top10teams
    
   #| team_api_id | team_long_name | defense
@@ -120,33 +120,37 @@ Questions that are answered for this dataset are the following:
 10|   8521  |   Stade Brestois 29   |  210
 
 
-8. Which are the top 10 teams by number of fielded players (i.e. number of players the team has sent to the field across all matches)?
+### 8. Which are the top 10 teams by number of fielded players (i.e. number of players the team has sent to the field across all matches)?
 > top10TeamsByFieldedPlayers
-         team_long_name fielded_Players
-1                 Genoa             139
-2       Vitória Setúbal             123
-3              SC Braga             122
-4            Kilmarnock             116
-5     Standard de Liège             115
-6               Bologna             114
-7     Vitória Guimarães             110
-8             Sampdoria             109
-9  Académica de Coimbra             109
-10              Palermo             107
+         
+ #| team_long_name | fielded_Players
+ --- | --- | --- | --- 
+1 |                 Genoa    |    139
+2 |      Vitória Setúbal     |    123
+3 |             SC Braga     |    122
+4 |           Kilmarnock     |    116
+5 |    Standard de Liège     |    115
+6 |              Bologna     |    114
+7 |    Vitória Guimarães     |    110
+8 |            Sampdoria     |    109
+9 | Académica de Coimbra     |    109
+10|              Palermo     |    107
 
-10. Which are the top 10 teams by number of scored goals?
+### 10. Which are the top 10 teams by number of scored goals?
 > top10TeamsByGoals
-      team_long_name total_goals
-1       FC Barcelona         849
-2     Real Madrid CF         843
-3             Celtic         695
-4   FC Bayern Munich         653
-5                PSV         652
-6               Ajax         647
-7           FC Basel         619
-8    Manchester City         606
-9            Chelsea         583
-10 Manchester United         582
+
+ #| team_long_name | total_goals
+ --- | --- | --- | --- 
+1 |       FC Barcelona |   849
+2 |    Real Madrid CF  |   843
+3 |            Celtic  |   695
+4 |  FC Bayern Munich  |   653
+5 |               PSV  |   652
+6 |              Ajax  |   647
+7 |          FC Basel  |   619
+8 |   Manchester City  |   606
+9 |           Chelsea  |   583
+10| Manchester United  |   582
 
 
 References :: 

@@ -72,17 +72,19 @@ Questions that are answered for this dataset are the following:
 
 5. Which are the top 10 teams by sum of build up play attributes?
 > buildUpPlay_top10teams
-   team_api_id             team_long_name buildUpPlay
-1         9804                     Torino         209
-2         8600                    Udinese         205
-3         8194         Fortuna Düsseldorf         198
-4         8033 Podbeskidzie Bielsko-Biała         193
-5         8245              Korona Kielce         192
-6         8024                Widzew Łódź         190
-7         8244                Widzew Łódź         190
-8       208931                      Carpi         190
-9         9830                  FC Nantes         189
-10        7943                   Sassuolo         188
+
+  #| team_api_id | team_long_name  |  buildUpPlay |
+  --- | --- | --- | ---        
+1 |    9804 |                    Torino  |   209
+2 |    8600 |                   Udinese  |   205
+3 |    8194 |        Fortuna Düsseldorf  |   198
+4 |    8033 | Podbeskidzie Bielsko-Biała |   193
+5 |    8245 |             Korona Kielce  |   192
+6 |    8024 |               Widzew Łódź  |   190
+7 |    8244 |               Widzew Łódź  |   190
+8 |  208931 |                     Carpi  |   190
+9 |    9830 |                 FC Nantes  |   189
+10|    7943 |                  Sassuolo  |   188
 
 6. Which are the top 10 teams by sum of chance creation attributes?
 > chanceCreation_top10teams

@@ -1,8 +1,8 @@
 # European-Soccer-Data
 
-Step 1 - Important question were prepared through critical analysis and subsequently required adequate data is cleaned, mungled and converted into a format that is convenient for in-memory operations. This took necessary transformations such as grouping, categorization and binning to stage them for in-memory analysis.
+Step 1 - Important question were prepared through critical analysis and subsequently required adequate data is cleaned, mungled and converted into a format that is convenient for in-memory operations. This took necessary transformations such as grouping, categorization and binning to stage them for in-memory analysis. Files that are prepared from this step includes *player.csv* and *team.csv*
 
-Step 2 -  Relevant answers were obtained from the resultant datasets (in .csv format) obtained from step 1.
+Step 2 -  Relevant answers were obtained from the resultant datasets (in .csv format) obtained from step 1. The script to run for this step is *Question-Answering.csv*
 
 Questions that are answered for this dataset are the following:
 

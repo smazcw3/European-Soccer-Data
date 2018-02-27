@@ -88,32 +88,36 @@ Questions that are answered for this dataset are the following:
 
 6. Which are the top 10 teams by sum of chance creation attributes?
 > chanceCreation_top10teams
-   team_api_id      team_long_name chanceCreation
-1         8543               Lazio            220
-2         8697    SV Werder Bremen            216
-3         9875              Napoli            215
-4         8178 Bayer 04 Leverkusen            210
-5         8191             Burnley            210
-6         8344        Cardiff City            210
-7         8456     Manchester City            210
-8         8485            Aberdeen            210
-9         8548             Rangers            210
-10        8586   Tottenham Hotspur            210
+
+  #| team_api_id | team_long_name  |  chanceCreation |
+  --- | --- | --- | ---     
+1 |   8543 |              Lazio |   220
+2 |   8697 |   SV Werder Bremen |   216
+3 |   9875 |             Napoli |   215
+4 |   8178 | Bayer 04 Leverkusen|   210
+5 |   8191 |            Burnley |   210
+6 |   8344 |       Cardiff City |   210
+7 |   8456 |    Manchester City |   210
+8 |   8485 |           Aberdeen |   210
+9 |   8548 |            Rangers |   210
+10|   8586 |  Tottenham Hotspur |   210
 
 
 7. Which are the top 10 teams by sum of defense attributes?
 > defense_top10teams
-   team_api_id        team_long_name defense
-1         1957 Jagiellonia Białystok     210
-2         7794             SC Bastia     210
-3         8021        Zagłębie Lubin     210
-4         8197        Leicester City     210
-5         8344          Cardiff City     210
-6         8350  1. FC Kaiserslautern     210
-7         8466           Southampton     210
-8         8481     AS Nancy-Lorraine     210
-9         8483             Blackpool     210
-10        8521     Stade Brestois 29     210
+   
+  #| team_api_id | team_long_name | defense
+  --- | --- | --- | --- 
+1 |   1957  | Jagiellonia Białystok |    210
+2 |   7794  |           SC Bastia   |  210
+3 |   8021  |      Zagłębie Lubin   |  210
+4 |   8197  |      Leicester City   |  210
+5 |   8344  |        Cardiff City   |  210
+6 |   8350  |1. FC Kaiserslautern   |  210
+7 |   8466  |         Southampton   |  210
+8 |   8481  |   AS Nancy-Lorraine   |  210
+9 |   8483  |           Blackpool   |  210
+10|   8521  |   Stade Brestois 29   |  210
 
 
 8. Which are the top 10 teams by number of fielded players (i.e. number of players the team has sent to the field across all matches)?

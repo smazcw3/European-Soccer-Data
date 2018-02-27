@@ -41,7 +41,7 @@ Questions that are answered for this dataset are the following:
 3. Which are the top 10 players by number of appearances (with any team they played with)?
 > top10Players_presences
 
-# | player_name | Number_of_appearances |
+#| player_name | Number_of_appearances |
   --- | --- | ---
 1 |        Steve Mandanda   |   300
 2 |     Stephane Ruffier    |   294
@@ -57,7 +57,7 @@ Questions that are answered for this dataset are the following:
 4. Which are the top 10 players by number of leagues they played in?
 > top10Players_leaguesPlayed
 
-# | player_name | leagues_played  |
+#| player_name | leagues_played  |
   --- | --- | ---
 1|       Gelson Fernandes  |   6
 2|  Ricky van Wolfswinkel  |   5

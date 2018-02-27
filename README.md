@@ -40,31 +40,35 @@ Questions that are answered for this dataset are the following:
 
 3. Which are the top 10 players by number of appearances (with any team they played with)?
 > top10Players_presences
-            player_name Number_of_appearances
-1        Steve Mandanda                   300
-2      Stephane Ruffier                   294
-3  Gorka Iraizoz Moreno                   286
-4      Samir Handanovic                   286
-5           Hugo Lloris                   282
-6            Tim Howard                   282
-7              Joe Hart                   275
-8       Cedric Carrasso                   268
-9         Daniel Congre                   262
-10       Moussa Sissoko                   260
+
+# | player_name | Number_of_appearances |
+  --- | --- | ---
+1 |        Steve Mandanda   |   300
+2 |     Stephane Ruffier    |   294
+3 | Gorka Iraizoz Moreno    |   286
+4 |     Samir Handanovic    |   286
+5 |          Hugo Lloris    |   282
+6 |          Tim Howard     |   282
+7 |             Joe Hart    |   275
+8 |      Cedric Carrasso    |   268
+9 |        Daniel Congre    |   262
+10|       Moussa Sissoko    |   260
 
 4. Which are the top 10 players by number of leagues they played in?
 > top10Players_leaguesPlayed
-             player_name leagues_played
-1       Gelson Fernandes              6
-2  Ricky van Wolfswinkel              5
-3         Filip Djuricic              5
-4         Radamel Falcao              4
-5     Jonathan De Guzman              4
-6             Almen Abdi              4
-7        Ibrahim Afellay              4
-8        Edson Braafheid              4
-9            Eljero Elia              4
-10       Danijel Pranjic              4
+
+# | player_name | leagues_played  |
+  --- | --- | ---
+1|       Gelson Fernandes  |   6
+2|  Ricky van Wolfswinkel  |   5
+3|         Filip Djuricic  |   5
+4|        Radamel Falcao   |   4
+5|     Jonathan De Guzman  |   4
+6|             Almen Abdi  |   4
+7|       Ibrahim Afellay   |   4
+8|        Edson Braafheid  |   4
+9|            Eljero Elia  |   4
+10|       Danijel Pranjic  |   4
 
 5. Which are the top 10 teams by sum of build up play attributes?
 > buildUpPlay_top10teams

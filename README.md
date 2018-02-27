@@ -108,7 +108,7 @@ Questions that are answered for this dataset are the following:
    
   #| team_api_id | team_long_name | defense
   --- | --- | --- | --- 
-1 |   1957  | Jagiellonia Białystok |    210
+1 |   1957  | Jagiellonia Białystok |  210
 2 |   7794  |           SC Bastia   |  210
 3 |   8021  |      Zagłębie Lubin   |  210
 4 |   8197  |      Leicester City   |  210
@@ -124,7 +124,7 @@ Questions that are answered for this dataset are the following:
 > top10TeamsByFieldedPlayers
          
  #| team_long_name | fielded_Players
- --- | --- | --- | --- 
+ --- | --- | --- |
 1 |                 Genoa    |    139
 2 |      Vitória Setúbal     |    123
 3 |             SC Braga     |    122
@@ -140,7 +140,7 @@ Questions that are answered for this dataset are the following:
 > top10TeamsByGoals
 
  #| team_long_name | total_goals
- --- | --- | --- | --- 
+ --- | --- | --- |
 1 |       FC Barcelona |   849
 2 |    Real Madrid CF  |   843
 3 |            Celtic  |   695
@@ -153,6 +153,6 @@ Questions that are answered for this dataset are the following:
 10| Manchester United  |   582
 
 
-References :: 
+### References :: 
 
-Dataset retrieved from https://www.kaggle.com/hugomathien/soccer/data
+1. Dataset retrieved from https://www.kaggle.com/hugomathien/soccer/data

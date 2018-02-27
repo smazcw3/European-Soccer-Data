@@ -136,7 +136,7 @@ Questions that are answered for this dataset are the following:
 9 | Académica de Coimbra     |    109
 10|              Palermo     |    107
 
-### 10. Which are the top 10 teams by number of scored goals?
+### 9. Which are the top 10 teams by number of scored goals?
 > top10TeamsByGoals
 
  #| team_long_name | total_goals
